@@ -1,0 +1,41 @@
+
+Indicador 01
+
+Número de Notificações de Violência Contra Crianças e Adolescentes na Rede de Saúde
+
+    1. Descrição: Este indicador mensura o número de notificações de violência contra crianças e adolescentes de 18 anos registrados no Sistema Único de Saúde (SUS). Ele é fundamental para o acompanhamento da prevalência de violência nessa faixa etária e subsidiar a elaboração de políticas públicas de prevenção e enfrentamento à violência contra crianças e adolescentes.
+
+    2. Fórmula/Metodologia:
+
+    • A fórmula consiste na soma das notificações de violência interpessoal registradas contra crianças e adolescentes menores de 18 anos, excluindo os casos de lesões autoprovocadas.
+
+Total de notificações de violência contra crianças e adolescentes menores de 18 anos = Σ (Registros no SINAN com NU_IDADE_N < 18 e LES_AUTOP ≠ 1)
+
+    • Observação sobre a variável de idade: A variável NU_IDADE_N utiliza o 1º dígito para indicar a unidade de tempo: 1 - Hora; 2 - Dia; 3 - Mes; 4 - Ano. Exemplos: 3009 representa 9 meses de idade; 4018 representa 18 anos de idade. Para este indicador, todas as idades em horas, dias e meses são compreendidas como "menores de 1 ano".
+
+    3. Variáveis:
+
+    • NU_IDADE_N: Idade da vítima.
+    • LES_AUTOP: Indicador de lesão autoprovocada, onde LES_AUTOP ≠ 1 exclui notificações de lesões autoprovocadas.
+    • ID_MN_RESI: Município de residência da vítima.
+
+    4. Fonte de Dados: Sistema de Informação de Agravos de Notificação (SINAN).
+
+    5. Periodicidade: Anual.
+
+    6. Desagregações:
+
+    • Idade: 0 a 17 anos.
+    • Geográfica: Município de residência, Unidade da Federação, região e nível nacional.
+
+    7. Limitações:
+
+    • A subnotificação de casos de violência pode ocorrer, principalmente em áreas de menor cobertura de saúde ou em contextos de menor visibilidade da violência infantil e adolescente.
+    • Possíveis inconsistências nos registros devido à variabilidade na qualidade do preço
+
+    8. Links para Referências: ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/
+
+    9. Alinhamento Estratégico:
+
+    • Este indicador está alinhado com o planejamento estratégico do Ministério dos Direitos Humanos e da Cidadania (MDHC) para o período de 2023 a 2026, em especial ao objetivo estratégico de “enfrentar a violência contra crianças e adolescentes no Brasil”.
+    • Contribui para o alcance do Objetivo de Desenvolvimento Sustentável 16 – Paz, Justiça e Instituições Eficazes, especificamente para a meta 16.2, que visa acabar com o abuso, a exploração, o tráfico e todas as formas de violência e tortura contra crianças.
